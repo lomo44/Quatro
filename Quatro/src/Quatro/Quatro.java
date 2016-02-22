@@ -9,7 +9,7 @@ public class Quatro {
         printStartingInfo();
     }
 
-    private void printStartingInfo(){
+    private static void printStartingInfo(){
         System.out.println("Hello, Welcome to Quatro");
     }
 }
