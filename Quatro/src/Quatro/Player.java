@@ -24,5 +24,5 @@ public abstract class Player {
         setPlayername(_name);
         setHisTurn(isHisTurn);
     }
-    abstract public void actionInHisTurn();
+    abstract public void actionInHisTurn(int nofturn);
 }

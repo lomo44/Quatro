@@ -10,12 +10,12 @@ public class QuatroHumanPlayer extends Player{
     }
 
     @Override
-    public void actionInHisTurn(){
+    public void actionInHisTurn(int nofturn){
+        if(nofturn == 1){
+
+        }
         QuatroBoard currentboard = (QuatroBoard)controller.getCurrentBoard();
         AskForImput();
-    }
-    public void firstMove(){
-
     }
     public void AskForImput(){
 
