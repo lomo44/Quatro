@@ -38,5 +38,8 @@ public abstract class Board {
         PieceList = new boolean[numberOfPiece];
         NumberOfPiece = numberOfPiece;
     }
+    public boolean[] getValidPieceList(){
+    	return PieceList;
+    }
 }
 
